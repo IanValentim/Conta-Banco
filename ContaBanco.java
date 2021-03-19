@@ -60,7 +60,7 @@ public class ContaBanco {
             this.setSaldo(this.getSaldo() + v);
             System.out.println("Depósito realizado com sucesso na conta de " + getDono());
         } else {
-            System.out.println("Impossível sacar, conta fechada.");
+            System.out.println("Impossível depósitar, conta fechada.");
         }
     }
 
